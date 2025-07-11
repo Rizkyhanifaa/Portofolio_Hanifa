@@ -1,0 +1,16 @@
+@import "tailwindcss"; 
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@theme {
+  --color-primary-dark: #0B0C0C;
+  --color-primary-light: #0BB3DD;
+  --color-secondary-dark: #323433;
+  --color-secondary-light: #F5F5F5;
+  --color-hover-dark: #0f90b0;
+  --color-hover-light: #c3ebf5;
+
+  --font-inter: "Inter", sans-serif;
+}
