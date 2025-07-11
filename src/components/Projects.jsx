@@ -1,8 +1,8 @@
 import React from "react";
-import Todoit from "../assets/projects/todoit.PNG";
+import Todoit from "../assets/projects/todoit.png";
 import WasteWise from "../assets/projects/wastewise.png";
 import OrderLink from "../assets/projects/orderlink.PNG";
-import Bookshelf from "../assets/projects/bookshelf.png";
+import Bookshelf from "../assets/projects/bookshelf.PNG";
 import Story from "../assets/projects/storyapp.PNG";
 import CityCare from "../assets/projects/citycare.PNG";
 
