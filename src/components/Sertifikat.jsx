@@ -78,7 +78,7 @@ export default function Sertifikat() {
   };
 
   return (
-    <section id="sertifikat" className="px-6 md:px-20 py-10" data-aos="fade-up">
+    <section id="certificate" className="px-6 md:px-20 py-10" data-aos="fade-up">
       <div className="text-center mb-10">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
           My <span className="text-primary-light">Certificate</span>

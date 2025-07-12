@@ -39,6 +39,7 @@ export default function Navbar() {
                   to={item.toLowerCase()}
                   smooth={true}
                   duration={500}
+                  offset={-80} 
                   onClick={handleLinkClick}
                   className="block px-4 py-2 text-gray-700 hover:text-cyan-500 transition-colors duration-200 cursor-pointer"
                 >
