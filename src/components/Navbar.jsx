@@ -33,7 +33,7 @@ export default function Navbar() {
           }`}
         >
           <ul className="flex flex-col md:flex-row md:space-x-2">
-            {["Home", "About", "Skills", "Projects", "Bootcamp", "Contact"].map((item) => (
+            {["Home", "About", "Skills", "Projects", "Bootcamp", "Certificate", "Contact"].map((item) => (
               <li key={item}>
                 <Link
                   to={item.toLowerCase()}

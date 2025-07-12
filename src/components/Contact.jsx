@@ -1,6 +1,4 @@
 import React from "react";
-
-// Import gambar ikon
 import linkedinIcon from "../assets/contact/linkedin.png";
 import instagramIcon from "../assets/contact/instagram.png";
 import githubIcon from "../assets/contact/github.png";
@@ -28,6 +26,7 @@ function Contact() {
     <section
       id="contact"
       className="px-4 md:px-20 py-16 bg-white border-t border-gray-200"
+      data-aos="fade-up"
     >
       {/* Judul */}
       <div className="text-center mb-10">
@@ -45,7 +44,7 @@ function Contact() {
       </div>
 
       {/* Icons */}
-      <div className="flex justify-center gap-8" data-aos="fade-up">
+      <div className="flex justify-center gap-8">
         {contactLinks.map((link, index) => (
           <a
             href={link.url}

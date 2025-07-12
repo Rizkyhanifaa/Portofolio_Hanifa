@@ -6,7 +6,7 @@ const bootcamps = [
     organizer: "Dicoding x DBS Foundation",
     period: "Februari 2025 – Juli 2025",
     role: "Front-End & Back-End Web Developer",
-    skills: "HTML, CSS, JavaScript, Webpack, Hapi.js, Git, PWA, API Integration",
+    skills: "HTML, CSS, JavaScript, Webpack, Hapi.js, Git, PWA, API Integration, MVP, SPA",
     project: "WasteWise Web",
     certificate: "https://drive.google.com/drive/folders/1sGg3nG7OQl0CITxESjS_esoSP5aM5qIm?usp=sharing", 
   },
@@ -28,11 +28,47 @@ const bootcamps = [
     project: "To Do List App",
     certificate: "https://drive.google.com/your-certificate-link-3",
     },
+    {
+    name: "Pelatihan Artificial Intelligence 2025",
+    organizer: "Dicoding with AVPN",
+    period: "8 Mei 2025 – 15 Juli 2025",
+    role: "AI Learning Participant",
+    skills: "Artificial Intelligence, AI Productivity Tools, Prompt Engineering, AI Ethics, AI Strategy",
+    project: "Menyelesaikan seluruh course dan kuis dengan hasil melebihi standar minimal untuk mendapatkan sertifikat.",
+    certificate: "https://drive.google.com/drive/folders/1Caj7_Wu2po23fYOfqetqVC8EDWhiWOtB?usp=sharing"
+  },
+    {
+    name: "AWS Back-End Academy",
+    organizer: "Dicoding with AWS",
+    period: "April 2025 – Juni 2025",
+    role: "Back-End Development Participant",
+    skills: "AWS EC2, Cloud Computing, Back-End Web Development, REST APIs, Node.js, Hapi.js Framework, Postman API,(OOP",
+    project: "Menyelesaikan seluruh course dan kuis dengan hasil melebihi standar minimal.",
+    certificate: "https://drive.google.com/drive/folders/1LiXBqRYVrfpsmOghMZx-gr3WxL0yX8kA?usp=sharing"
+  },
+  {
+    name: "Mentoring Frontend Web Developer with Tailwind CSS",
+    organizer: "Banyumas Digital Valley",
+    period: "9 - 23 Oktober 2022",
+    role: "Frontend Web Development Participant",
+    skills: "HTML, CSS, dan Tailwind CSS ",
+    project: "Mengikuti seluruh materi pembelajaran.",
+    certificate: "https://drive.google.com/file/d/1ZEu7Ud1htEUacMGQr5a8rBVCPs-IJ9ER/view?usp=sharing"
+  },
+  {
+    name: "Web Development Course",
+    organizer: "MySkill Academy",
+    period: "Maret 2024 - April 2024",
+    role: "Web Development Participant",
+    skills: "HTML, CSS, HTTP, DNS, dan hosting",
+    project: "Menyelesaikan seluruh course dan kuis dengan hasil melebihi standar minimal untuk mendapatkan sertifikat.",
+    certificate: "https://drive.google.com/drive/folders/1049aWT1Qhl54XRgSz6EP3k7ykOeMoRgj?usp=sharing"
+  },
 ];
 
 export default function Bootcamp() {
   return (
-    <section id="bootcamp" className="px-4 md:px-20 py-16 bg-gray-50">
+    <section id="bootcamp" className="px-4 md:px-20 py-16 bg-gray-50" data-aos="fade-up">
       <div className="text-center mb-10">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
           Bootcamp <span className="text-primary-light">Experience</span>
@@ -48,11 +84,11 @@ export default function Bootcamp() {
 
       <div 
       className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
-      data-aos="fade-up">
+      >
         {bootcamps.map((bootcamp, index) => (
           <div
             key={index}
-            className="bg-white border border-gray-200 rounded-lg shadow hover:shadow-lg transition-shadow duration-300 p-6 flex flex-col justify-between"
+            className="bg-white border border-gray-200 rounded-lg shadow hover:shadow-lg transition-transform duration-300 hover:scale-102  ease-in-out  p-6 flex flex-col justify-between"
           >
             <div>
               <h3 className="text-xl font-semibold text-primary-light mb-1">
@@ -61,13 +97,13 @@ export default function Bootcamp() {
               <p className="text-gray-700 text-sm mb-2">
                 {bootcamp.organizer} | {bootcamp.period}
               </p>
-              <p className="text-primary-dark mb-2">
+              <p className="text-primary-dark mb-2 text-[15px]">
                 <strong>Role:</strong> {bootcamp.role}
               </p>
-              <p className="text-primary-dark mb-2">
+              <p className="text-primary-dark mb-2 text-[15px]">
                 <strong>Dipelajari:</strong> {bootcamp.skills}
               </p>
-              <p className="text-primary-dark mb-4">
+              <p className="text-primary-dark mb-4 text-[15px]">
                 <strong>Project:</strong> {bootcamp.project}
               </p>
             </div>

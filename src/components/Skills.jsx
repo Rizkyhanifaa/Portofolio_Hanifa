@@ -33,7 +33,7 @@ function Skills() {
   ];
 
   return (
-    <section id="skills" className="px-4 md:px-20 py-16 bg-gray-50">
+    <section id="skills" className="px-4 md:px-20 py-16 bg-gray-50" data-aos="fade-up">
       {/* Judul */}
       <div className="text-center mb-10">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
@@ -51,7 +51,7 @@ function Skills() {
       {/* Grid Skills */}
       <div 
       className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-6"
-      data-aos="fade-up">
+      >
         {skillsData.map((skill, index) => (
           <div
             key={index}

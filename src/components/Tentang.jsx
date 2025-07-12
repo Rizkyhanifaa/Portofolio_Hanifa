@@ -5,6 +5,7 @@ export default function Tentang() {
     <section
       id="about"
       className="text-center px-4 md:px-20 py-16"
+      data-aos="fade-up"
     >
 
       {/* Judul */}

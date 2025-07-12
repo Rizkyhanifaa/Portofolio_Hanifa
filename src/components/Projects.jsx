@@ -59,7 +59,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="px-4 md:px-20 py-16 bg-gray-50">
+    <section id="projects" className="px-4 md:px-20 py-16 bg-gray-50" data-aos="fade-up">
       {/* Judul Section */}
       <div className="text-center mb-10">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
@@ -77,11 +77,11 @@ export default function Projects() {
       {/* Grid Projects */}
       <div 
       className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center"
-      data-aos="fade-up">
+      >
         {projects.map((project, index) => (
           <div
             key={index}
-            className="max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:shadow-lg transition-shadow duration-300"
+            className="max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:shadow-lg transition-transform duration-300 hover:scale-102  ease-in-out"
           >
             <a href={project.link} target="_blank" rel="noopener noreferrer">
               <img
