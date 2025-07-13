@@ -30,7 +30,7 @@ export default function Hero() {
           />
         </h2>
         <p className="text-lg md:text-xl text-primary-dark mb-6">
-          Front-End Development Enthusiast
+          Web Developer Enthusiast
         </p>
 
         <div className="space-y-2 text-gray-800 mb-8">

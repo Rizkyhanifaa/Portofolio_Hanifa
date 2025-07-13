@@ -14,6 +14,8 @@ import figmaIcon from "../assets/skills/10.png";
 import vueIcon from "../assets/skills/11.png"; 
 import tailwindIcon from "../assets/skills/12.png"; 
 import reactIcon from "../assets/skills/13.png"; 
+import laraveltIcon from "../assets/skills/14.png";
+import xamppIcon from "../assets/skills/15.png";
 
 function Skills() {
   const skillsData = [
@@ -30,6 +32,8 @@ function Skills() {
     { name: "VS Code", icon: vscodeIcon },
     { name: "Postman", icon: postmanIcon },
     { name: "Figma", icon: figmaIcon },
+    { name: "Laravel", icon: laraveltIcon },
+    { name: "Xampp", icon: xamppIcon },
   ];
 
   return (
